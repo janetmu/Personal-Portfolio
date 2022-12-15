@@ -1,0 +1,152 @@
+.work_container {
+  grid-template-columns: repeat(3, 330px);
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.work_item {
+  cursor: pointer;
+  color: #82b440;
+  padding: 0.25rem 75rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+}
+
+.work_card {
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  border: 0.8px solid #262626;
+  background-color: #000000;
+}
+
+.work_img {
+  border-radius: 0.3rem;
+  margin-bottom: #fff;
+}
+
+.work_card h1 {
+  font-size: 1rem;
+  color: #82b440;
+  margin-bottom: (--mb-0-5);
+}
+
+.work_botton {
+  font-size: 1rem;
+  opacity: 75%;
+  margin-bottom: 10px;
+}
+
+.work_card span {
+  font-size: 1rem;
+  opacity: 75%;
+  color: #fff;
+}
+
+.details_info:hover i {
+  color: #82b440;
+  font-weight: 900;
+}
+
+.codigo_icon {
+  color: #82b440;
+  font-weight: bold;
+  font-size: large;
+}
+
+.details_info li {
+  color: #fff;
+  font-weight: 300;
+  margin-left: 0;
+  font-size: 1rem;
+}
+
+.details_info ul {
+  margin-left: -30px;
+}
+
+.work_button_icon {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.work_button_icon {
+  color: #fff;
+}
+
+.portfolio_item_details {
+  margin-left: -29px;
+}
+
+.details_info a {
+  color: #82b440;
+  font-weight: 300;
+  margin-left: 0;
+  font-size: medium;
+  text-decoration: underline;
+}
+
+.details_info:hover a {
+  color: #fff;
+  font-weight: 400;
+}
+
+.details_info:hover i {
+  color: #fff;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 992px) {
+  .portfolio_top {
+    justify-content: space-evenly;
+  }
+
+  .details_info li {
+    font-size: 0.9rem;
+  }
+
+  .work_card h1 {
+    font-size: 0.6rem;
+  }
+
+  .work_card span {
+    font-size: 0.7rem;
+    opacity: 75%;
+    color: #fff;
+  }
+
+  .details_info a {
+    font-size: smaller;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+
+  .portfolio_top {
+    gap: 1rem;
+  }
+
+  .details_info li {
+    font-size: 0.6rem;
+  }
+  .work_card {
+    font-size: 0.6rem;
+    margin-left: 20%;
+    margin-top: 5%;
+    gap: 1rem;
+  }
+
+  .work_card h1 {
+    font-size: 0.6rem;
+  }
+
+  .work_card span {
+    font-size: 0.7rem;
+    opacity: 75%;
+    color: #fff;
+  }
+
+  .details_info a {
+    font-size: smaller;
+  }
+}

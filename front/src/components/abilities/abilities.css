@@ -1,0 +1,70 @@
+
+
+.abilities-container{
+  margin-left: 45px;
+}
+
+.abilities-icon{
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  color: #82b440;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.single_abilities{
+  position: relative;
+  margin-left:25%;
+  position: relative;
+  padding: 6px 40px;
+  margin-top: 1rem;
+}
+
+.single_abilities h6{
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 992px) {
+.single_abilities h6{
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.single_abilities{
+  position: relative;
+  margin-left:20%;
+  position: relative;
+  padding: 3px 35px;
+  margin-top: 1.2rem;
+  margin-right: 5%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

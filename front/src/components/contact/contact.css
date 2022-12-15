@@ -1,0 +1,54 @@
+
+
+.contact-icon{
+  color: #82b440;
+  font-size: 2.1rem;
+}
+
+.contact_container{
+  text-align: center;
+  border-radius: .25rem;
+  border: .5px solid #262626;
+  background-color: #000000;
+}
+
+.contact_container p{
+    font-size: 1rem;
+}
+
+.contact_container h5{
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  
+  
+  .single_info_box h5{
+    font-size: 0.8rem;
+  }
+
+  .single_info_box p{
+    font-size: 0.8rem;
+  }
+
+
+}
+
+@media only screen and (max-width: 576px) {
+  .contact_container {
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 1%;
+
+  }
+
+   
+  .single_info_box h5{
+    font-size: 1rem;
+  }
+
+  .single_info_box p{
+    font-size: 0.9rem;
+  }
+
+}

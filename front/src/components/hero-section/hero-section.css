@@ -1,0 +1,167 @@
+.hero_content h3 {
+  color: #ffffffa6;
+  font-size: 2rem;
+}
+
+.hero_content p {
+  color: #ffffffa6;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.btn1 {
+  background-color: #000000;
+  border: 2px solid #82b440;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.btn1 a {
+  text-decoration: none;
+  color: #82b440;
+  font-weight: 500;
+}
+
+.btn1:hover a {
+  color: #000000;
+  cursor: pointer;
+}
+
+.btn1:hover a {
+  font-weight: 600;
+  color: #82b440;
+}
+
+.hire_btn {
+  background-color: #82b440;
+  border: 2px solid #82b440;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.hire_btn a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.hire_btn:hover a {
+  color: #82b440;
+  border: 2px solid #82b440;
+  border-radius: 4px;
+  padding: 9px;
+  margin-left: -6px;
+}
+
+.hero_title span {
+  color: #82b440;
+}
+
+.hero_title {
+  font-weight: 600;
+}
+
+.hero_section {
+  padding-top: 100px;
+  margin-top: 0;
+}
+
+.home_social {
+  position: fixed;
+  display: flex;
+  flex-flow: column wrap;
+  top: 60%;
+  left: 50px;
+  row-gap: 1rem;
+}
+
+.home_social::before {
+  content: "     ";
+  width: 32px;
+  height: 2px;
+  background-color: #fff;
+  transform: rotate(90deg) translate(2px, 7px);
+}
+
+.home_contact {
+  color: #fff;
+  position: fixed;
+  display: flex;
+  flex-flow: column wrap;
+  top: 45%;
+  left: 13px;
+  row-gap: 1rem;
+  transform: rotate(-90deg);
+}
+
+.hero_img {
+  width: 522px;
+  margin-left: 5%;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero_img {
+    width: 400px;
+    height: 400px;
+    margin-left: 12%;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .hero_content {
+    margin-right: 20%; 
+    margin-top: 30%;  
+  } 
+
+  .hero_content p {
+    font-size: 1rem;    
+  }
+
+  .hero_content h3 {
+    font-size: 1.4rem;    
+  }
+
+  .hero_content h2 {
+    font-size: 1.6rem;    
+  }
+
+  .hero_btns button {
+    display: block;
+    padding: 5px 20 px;
+    font-size: 0.8rem;
+  }
+
+  .hero_section {
+  padding-top: 80px;
+  margin-top: 0;
+}
+
+}
+
+@media only screen and (max-width: 576px) {
+  .hero_img {
+    width: 80%;
+    margin-left: 0%;
+  }
+
+  .hero_content {
+    margin-bottom: 50px;
+    
+  }
+
+  .hero_title span {
+    font-size: 1.5rem;
+  }
+
+  .hero_section {
+    margin-left: 20%;
+  }
+
+  .hero_btns button {
+    display: block;
+    padding: 5px 20 px;
+    font-size: 0.8rem;
+    margin-left: 5%;
+  }
+  
+}
