@@ -65,7 +65,7 @@ const Portfolio = () => {
                     <a
                       href="https://youtu.be/7MG2gOEZmHI?autoplay=1"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       <i className="ri-video-fill work_button-icon"></i>
                       Ver Demo
@@ -104,7 +104,7 @@ const Portfolio = () => {
                     <a
                       href="https://youtu.be/n4saBrxfiOE?autoplay=1"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       <i className="ri-video-fill work_button-icon"></i>
                       Ver Demo

@@ -20,7 +20,7 @@ const Contact = () => {
             <a
               href="https://api.whatsapp.com/send?phone=+573015723929&text=Hola%20Janet,%20vi%20tu%20CV%20Dev"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <i className="ri-whatsapp-line contact-icon mt-3 mb-4"></i>
             </a>
@@ -46,7 +46,7 @@ const Contact = () => {
             <a
               href="mailto:janetmaru.jm@gmail.com"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <i className="ri-mail-line contact-icon mt-3 mb-4"></i>
             </a>

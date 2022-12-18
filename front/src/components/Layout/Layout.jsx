@@ -20,11 +20,11 @@ const Layout = () => {
       <Qualification />
       <Skills />
       <Abilities/>
-      <Portfolio/>
-      <Contact/>
-      <Footer/>
+      <Portfolio />
+      <Contact />
+      <Footer />
     </Fragment>
   );
-}
+};
 
-export default Layout
+export default Layout;

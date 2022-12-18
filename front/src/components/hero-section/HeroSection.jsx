@@ -61,7 +61,7 @@ const HeroSection = () => {
                   <a
                     href="https://api.whatsapp.com/send?phone=+573015723929&text=Hola%20Janet,%20vi%20tu%20CV%20Dev"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <i className="ri-whatsapp-line"></i>
                     Contáctame
@@ -78,21 +78,21 @@ const HeroSection = () => {
                 <a
                   href="http://www.linkedin.com/in/janet-marulanda-usma-dev"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="ri-linkedin-fill"></i>
                 </a>
                 <a
                   href="https://github.com/janetmu"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="ri-github-fill"></i>
                 </a>
                 <a
                   href="https://api.whatsapp.com/send?phone=+573015723929&text=Hola%20Janet,%20vi%20tu%20CV%20Dev"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="ri-whatsapp-line"></i>
                 </a>
