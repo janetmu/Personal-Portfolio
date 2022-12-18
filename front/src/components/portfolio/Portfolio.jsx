@@ -67,8 +67,8 @@ const Portfolio = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
+                      <i className="ri-video-fill work_button-icon"></i>
                       Ver Demo
-                      <i className="uil uil-arrow-right work_button-icon"></i>
                     </a>
                   </li>
                 </ul>
@@ -106,8 +106,8 @@ const Portfolio = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
+                      <i className="ri-video-fill work_button-icon"></i>
                       Ver Demo
-                      <i className="uil uil-arrow-right work_button-icon"></i>
                     </a>
                   </li>
                 </ul>

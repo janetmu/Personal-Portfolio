@@ -1,9 +1,7 @@
+import React from "react";
+import "./contact.css";
 
-
-import React from 'react';
-import "./contact.css"; 
-
-import {Container,Row,Col} from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 const Contact = () => {
   return (
@@ -24,7 +22,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="uil uil-whatsapp contact-icon mt-3 mb-4"></i>
+              <i className="ri-whatsapp-line contact-icon mt-3 mb-4"></i>
             </a>
             <h5 className="mb-1">Whastapp</h5>
             <p>+57 3015723929</p>
@@ -35,7 +33,7 @@ const Contact = () => {
             sm="6"
             className="single_info_box text-center contact_container"
           >
-            <i class="uil uil-phone contact-icon mt-3 mb-4"></i>
+            <i className="ri-cellphone-line contact-icon mt-3 mb-4"></i>
             <h5 className="mb-1">Celular</h5>
             <p>+57 3193990912</p>
           </Col>
@@ -50,7 +48,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="uil uil-envelope-alt contact-icon mt-3 mb-4"></i>
+              <i className="ri-mail-line contact-icon mt-3 mb-4"></i>
             </a>
 
             <h5 className="mb-1">Email</h5>

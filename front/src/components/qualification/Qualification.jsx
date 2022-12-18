@@ -64,7 +64,7 @@ const Qualification = () => {
               {developmentQualificationData.map((item, index) => (
                 <div className="single_studies" key={index}>
                   <span className="studies-icon">
-                    <i class="ri-honour-line"></i>
+                    <i className="ri-honour-line"></i>
                   </span>
                   <h6>{item.title}</h6>
                   <h5>{item.institution}</h5>
@@ -80,7 +80,7 @@ const Qualification = () => {
             <div className="certifications-container">
               <div className="single_studies">
                 <span className="studies-icon">
-                  <i class="ri-honour-line"></i>
+                  <i className="ri-honour-line"></i>
                 </span>
                 <h6>Scrum Foundation Profesional Certificate SFPC</h6>
                 <h5>Vencimiento Octubre 2024</h5>
@@ -91,7 +91,7 @@ const Qualification = () => {
             <div className="certifications-container">
               <div className="single_studies">
                 <span className="studies-icon">
-                  <i class="ri-honour-line"></i>
+                  <i className="ri-honour-line"></i>
                 </span>
                 <h6>Inglés</h6>
                 <h5>B2: Intermedio Alto</h5>

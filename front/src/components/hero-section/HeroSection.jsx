@@ -7,8 +7,6 @@ import { init } from "ityped";
 
 import heroImg from "../../assests/images/hero-img.png";
 
-
-
 const HeroSection = () => {
   const textRef = useRef();
 
@@ -36,9 +34,9 @@ const HeroSection = () => {
 
           <Col lg="6" md="6">
             <div className="hero_content mt-4 py-5">
-              <p className="mb-5 mt-4">
+              <span className="mb-5 mt-4">
                 <h3 className="mb-5">¡Hola... Bienvenido a mi espacio!</h3>
-              </p>
+              </span>
 
               <h2 className="hero_title mt-1 mb-4">
                 Soy <span ref={textRef}></span>
@@ -55,7 +53,7 @@ const HeroSection = () => {
               <div className="hero_btns d-flex align-items-center gap-4 mt-5">
                 <button className="btn1">
                   <a href="./cv_janet_marulanda_usma_dev.pdf" download={""}>
-                    <i class="ri-file-download-line"></i>
+                    <i className="ri-file-download-line"></i>
                     Descargar CV
                   </a>
                 </button>
@@ -65,7 +63,7 @@ const HeroSection = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i class="ri-whatsapp-line"></i>
+                    <i className="ri-whatsapp-line"></i>
                     Contáctame
                   </a>
                 </button>
@@ -82,21 +80,21 @@ const HeroSection = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class="ri-linkedin-fill"></i>
+                  <i className="ri-linkedin-fill"></i>
                 </a>
                 <a
                   href="https://github.com/janetmu"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class="ri-github-fill"></i>
+                  <i className="ri-github-fill"></i>
                 </a>
                 <a
                   href="https://api.whatsapp.com/send?phone=+573015723929&text=Hola%20Janet,%20vi%20tu%20CV%20Dev"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class="ri-whatsapp-line"></i>
+                  <i className="ri-whatsapp-line"></i>
                 </a>
               </div>
             </div>

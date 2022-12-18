@@ -71,7 +71,6 @@ const menuToogle =()=> menuRef.current.classList.toggle("menu_active")
           </div>
 
           <div className="nav_menu" ref={menuRef} onClick={menuToogle}>
-            
             <ul className="nav_list">
               {navLinks.map((item, index) => (
                 <li className="nav__item" key={index}>
@@ -83,7 +82,7 @@ const menuToogle =()=> menuRef.current.classList.toggle("menu_active")
 
           <div className="nav_right d-flex align-items-center gap-4">
             <span className="mobile_menu">
-              <i class="ri-menu-add-fill" onClick={menuToogle}></i>
+              <i className="ri-menu-add-fill" onClick={menuToogle}></i>
             </span>
           </div>
         </div>
